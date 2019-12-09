@@ -320,6 +320,12 @@ puzzle_input = '1102,34463338,34463338,63,1007,63,34463338,63,1005,63,53,1102,1,
 
 
 if __name__ == '__main__':
+    print('Solution to Part 1')
+    run = compute_str(puzzle_input)
+    next(run)
+    print(run.send(1))
+
+    print('Solution to Part 2')
     run = compute_str(puzzle_input)
     next(run)
     print(run.send(2))
